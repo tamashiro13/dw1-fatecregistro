@@ -1,0 +1,87 @@
+/* Comentário no CSS */
+
+/* Seletor de Elementos */
+body{
+   background-color: #30302e;
+   color: #ffffff;
+   font-family: Verdana;
+   /* Espaço interno do elemento*/
+   padding: 20px;
+}
+/* P -> seletor */
+/* font-size -> propriedade */
+p {
+   /* Tamanho da fonte */
+   font-size: 16px;
+   /* Tamanho da linha */
+   line-height: 1.6;
+   /* Margem inferior  */
+   margin-bottom: 15px;
+   color: #8cc9e4;
+      /* Espaço interno do elemento */
+   padding: 10px;
+}
+section p{
+   color: orange;
+}
+
+/* Seletor de classe */
+.destaque {
+   background-color:#ffd780 ;
+   color: #000000;
+   padding: 10px;
+   /* border 5px (espessura) solid (tipo da borda) e a cor*/
+   border-left: 5px solid #ff6347;
+   border-radius: 3px;
+}
+
+/* Seletor de ID */
+#unico {
+   background-color: #8cc9e4;
+   color: #30302e;
+   padding: 20px;
+   border-radius: 8px;
+   text-align: center;
+   height: 100px;
+   /* height é a altura */
+   /* width é a largura */
+}
+
+.post {
+   background-color: #3a3a38;
+   padding: 20px;
+   margin: 20px 0px;
+   /* Arredondamento dos cantos */
+   border-radius: 5px;
+}
+
+.post h2 {
+   color: #ffd780;
+}
+
+/* Agrupamento de seletores */
+h2, h3, h4, h5 {
+   color: #4caf50;
+   margin-top: 15px;
+   margin-bottom: 10px;
+}
+
+.observacoes {
+   background-color: #252523;
+   padding: 20px;
+   border: 2px solid #8cc9e4;
+   border-radius: 8px;
+   margin-top: 30px;
+}
+ul {
+   margin-left: 30px;
+   margin-right: 10px;
+}
+
+li {
+   margin-bottom: 8px;
+}
+
+.observacoes h2 {
+   color: #8cc9e4;
+}
