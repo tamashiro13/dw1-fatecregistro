@@ -1,0 +1,51 @@
+body {
+    font-family: Verdana;
+}
+
+/* DISPLAY BLOCK */
+.block {
+    display: block;
+    width: 200px;
+    height: 50px;
+    background-color: lightcoral;
+    margin-bottom: 10px;
+    text-align: center;
+    line-height: 50px;
+}
+
+/* CARACTERÍSTICAS DO BLOCK
+- Ocupa toda a largura
+- Sempre quebra linha
+- Aceita widht e height
+ */
+
+ /* DISPLAY INLINE */
+ .inline {
+    display: inline;
+    background-color: lightgreen;
+    padding: 10px;
+    margin: 10px;
+}
+
+ /* CARACTERÍSTICAS DO INLINE
+- Não quebra linha
+- Ocupa apenas o conteúdo
+- Não aceita width e height
+*/
+
+/* DISPLAY INLINE-BLOCK */
+.inline-block {
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    background-color: lightblue;
+    margin: 10px;
+    text-align: center;
+    line-height: 50px;
+}
+
+/* CARACTERÍSTICAS DO INLINE-BLOCK
+- Fica na mesma linha
+- Aceita widht e height
+- Pode ser usado em layout de botões
+*/
