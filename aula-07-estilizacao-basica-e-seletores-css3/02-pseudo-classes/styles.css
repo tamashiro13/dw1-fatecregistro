@@ -1,0 +1,79 @@
+body {
+    font-family: Verdana;
+    background-color: #30302e;
+    color: white;
+    padding: 20px;
+    line-height: 1.6;
+}
+
+h1 {
+    color: #8cc9e4;
+    font-size: 32px;
+    margin-bottom: 30px;
+    border-bottom: 3px solid #8cc9e4;
+}
+
+h2 {
+    color: #8cc9e4;
+    font-size: 24px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.caixa {
+    width: 530px;
+    background-color: #3e3a38;
+    padding: 30px;
+    text-align: center;
+    border: 2px solid #8cc9e4;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+/* Pseudo-classes -  adiciona funcionalidades aos seletores */
+.caixa:hover {
+    background-color: #8cc9e4;
+    color: #30302e;
+    transform: scale(0.9);
+    box-shadow: 0 8px 16px rgba(140, 201, 228, 0.5);
+}
+
+.btn_download {
+    background-color:#4caf50;
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.btn_download:hover{
+    background-color: #2f7533;
+}
+
+/* active */
+.btn_download:active {
+    background-color: #dc5252;
+    transform: scale(0.95);
+}
+
+/* focus */
+input {
+    /* Largura máxima do elemento */
+    max-width: 400px;
+    padding: 12px;
+    border: 2px solid #555555;
+    border-radius: 5px;
+    background-color: #3a4a48;
+    color: white;
+    font-size: 16px;
+}
+
+input:focus {
+    outline: none;
+    border-color: #8cc9e4;
+    box-shadow: 0 0 10px rgba(140, 201, 228, 0.5);
+    background-color: #252523;
+}
