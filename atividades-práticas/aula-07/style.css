@@ -1,0 +1,66 @@
+body {
+    background-color: #303030;
+    font-family: Verdana;
+    color: white;
+    padding: 20px;
+    line-height: 1.6;
+}
+
+#sobre {
+    color: cadetblue;
+}
+
+.listano {
+    background-color: #404040;
+    padding: 10px;
+}
+
+.listano li {
+    color: lightcyan;
+}
+
+.habilidade {
+    border: 1px solid whitesmoke;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+.habilidade h4 {
+    color: cyan;
+}
+
+.habilidade p {
+    font-family: Arial;
+}
+
+.habilidade:hover {
+    background-color: #505050;
+}
+
+.habilidade h4::after {
+    content: " ⚙️";
+}
+
+#email {
+    color: lightcyan;
+}
+
+input[type="email"] {
+  border: 2px solid lightcyan;
+}
+#github {
+    color: lightblue;
+}
+a[href="https://github.com/tamashiro13"] {
+  color: lightblue;
+}
+
+
+footer{
+    background-color: #0000ff;
+    font-style: italic;
+    padding: 15px;
+}
+footer p + span {
+    color: whitesmoke;
+}
